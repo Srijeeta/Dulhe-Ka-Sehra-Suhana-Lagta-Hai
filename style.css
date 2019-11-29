@@ -26,7 +26,7 @@ body {
 .flipper-group label {
   position: absolute;
   color: #333;
-  font-size: 30%;
+  font-size: 25%;
   top: 100%;
   line-height: 1em;
   left: 50%;
@@ -275,6 +275,45 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.main-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 100px;
+  text-align: center;
+}
+.main-image img {
+  width: 330px;
+  border-radius: 100%;
+  border: 15px solid white;
+}
+.main-image img.right {
+  width: 300px;
+  border-radius: 100%;
+  border: 12px solid white;
+  position: absolute;
+  right: -125px;
+  margin-top: 10px;
+  z-index: -1;
+}
+.main-image img.left {
+  width: 300px;
+  border-radius: 100%;
+  border: 12px solid white;
+  position: absolute;
+  left: -125px;
+  margin-top: 10px;
+  z-index: -1;
+}
+.main-image h1 {
+  font-family: "Great Vibes", cursive;
+  color: black;
+  text-align: center;
+  font-size: 64px;
+  margin-top: -10px;
+  text-shadow: -2px 2px rgba(0, 0, 0, 0.3);
+}
 .text-heading {
   position: absolute;
   top: 0;
@@ -287,6 +326,7 @@ body {
   font-size: 48px;
   width: 100%;
   text-align: center;
+  text-shadow: -2px 2px rgba(0, 0, 0, 0.3);
 }
 .timer-wrapper {
   position: absolute;
