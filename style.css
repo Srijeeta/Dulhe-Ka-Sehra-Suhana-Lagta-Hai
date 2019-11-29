@@ -266,7 +266,7 @@ body {
 }
 
 .backdrop {
-  background-image: url(images/backdrop.jpg);
+  background-image: url(media/backdrop.jpg);
   filter: blur(4px);
   -webkit-filter: blur(4px);
   height: 100vh;
